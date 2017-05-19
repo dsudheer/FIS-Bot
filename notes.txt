@@ -1,0 +1,48 @@
+requirments:
+------------
+install node from - https://nodejs.org/en/download/
+install ngrok  from - https://ngrok.com/download
+
+steps:
+npm install
+
+================================================
+Important URLS:
+configure facebook settings in MS bot:
+https://dev.botframework.com/bots/channels?id=sdkbot&channelId=facebook
+
+how create and configure faceboot bot 
+https://docs.microsoft.com/en-us/bot-framework/thirdparty-channels/channel-facebook
+
+manage facebook
+https://developers.facebook.com/apps
+
+Manage Bot connection:
+Log into Microsoft Bot framework.- https://dev.botframework.com/
+==============================================================
+
+1. Manage Bot connection:
+Log into Microsoft Bot framework.
+Click on “Register a new bot” and follow the procedure. Don’t fill ‘Messaging Endpoint’ yet.
+Create a microsoft AppId and password and keep them preciously.
+
+2. Manage your Bot channels:
+Click on “Add” for the Facebook Messenger Channel.
+Follow the procedure, it’s very thorough.
+
+3. Get an online url for your future server:
+Whenever the bot receives a message on Messenger, it will be sent to the server running on the endpoint url specified on Microsoft Bot Platform.
+Problem: the server will be running locally (no url)
+That’s why you will use ngrok which make a local server run online.
+Download ngrok and run it
+ngrok http 9090
+Copy and paste the secured url (https) on the endpoint field of your bot in Microsoft Bot Framework
+
+
+4. Create your server:
+
+npm start
+==================================
+try facebook messenger
+https://www.messenger.com/t/1892005611013143
+

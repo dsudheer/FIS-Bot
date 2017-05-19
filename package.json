@@ -1,0 +1,27 @@
+{
+  "name": "FISbot",
+  "version": "1.0.0",
+  "description": "FIS bot",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bank",
+    "payment",
+    "bot"
+  ],
+  "author": "FIS",
+  "license": "ISC",
+  "dependencies": {
+    "botbuilder": "^3.7.0",
+    "express-winston": "^2.4.0",
+    "forever": "^0.15.3",
+    "nconf": "^0.8.4",
+    "node-watch": "^0.5.4",
+    "restify": "^4.3.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}

@@ -1,0 +1,105 @@
+{ 
+"msbotconfig" : {
+  "appId": "c47baca4-af2c-492a-8542-c780268c1f10",
+  "appPassword": "9dgEUxiwQJhRYYYW8NLzMdX"
+},
+"myoffers" : [
+	 {
+		"titile" : "Personal Loan",
+		"subtitle" : "@11.99% Interest",
+		"text" : "For FIS Employees",
+		"imageUrl":"http://www.deal4loans.com/images/personal-loan-offer.jpg",
+		"ButtonText" : "Apply Personal Loan",
+		"redirectUrl" : "http://www.deal4loans.com/images/personal-loan-offer.jpg"
+	},
+	{
+		"titile" : "Car Loan",
+		"subtitle" : "with low interest rates",
+		"text" : "For FIS Employees",
+		"imageUrl":"http://www.driversapproved.com/wp-content/uploads/2013/09/24.jpg",
+		"ButtonText" : "Apply Car Loan",
+		"redirectUrl" : "http://www.driversapproved.com/wp-content/uploads/2013/09/24.jpg"
+	},
+	{
+		"titile" : "House Loan",
+		"subtitle" : "with low interest rates",
+		"text" : "For FIS Employees",
+		"imageUrl":"http://www.icicibank.com/managed-assets/images/personal/festive-apply-online/home-loan-apply.jpg",
+		"ButtonText" : "Apply House Loan",
+		"redirectUrl" : "https://www.icicibank.com/managed-assets/images/personal/festive-apply-online/home-loan-apply.jpg"
+	},
+	{
+		"titile" : "Health Insurence",
+		"subtitle" : "with corporate offer",
+		"text" : "For FIS Employees",
+		"imageUrl":"http://awsinsurance.com/wp-content/uploads/2016/07/purchase-health-insurance-policy.png",
+		"ButtonText" : "Apply Health Insurence",
+		"redirectUrl" : "http://awsinsurance.com/wp-content/uploads/2016/07/purchase-health-insurance-policy.png"
+	},
+	{
+		"titile" : "Car Insurence",
+		"subtitle" : "with corporate offer",
+		"text" : "For FIS Employees",
+		"imageUrl":"https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAifAAAAJGU5ZDZiN2NkLTUwMTItNDlhNy05MDkyLWVjZTEzNzkyOTFkOQ.png",
+		"ButtonText" : "Apply Car Insurence",
+		"redirectUrl" : "https://media.licdn.com/mpr/mpr/AAEAAQAAAAAAAAifAAAAJGU5ZDZiN2NkLTUwMTItNDlhNy05MDkyLWVjZTEzNzkyOTFkOQ.png"
+	}	
+],
+"myalerts" : [
+	 {
+		"titile" : "Airtel Mobile Bill",
+		"subtitle" : "Last Date:30-05-2017",
+		"text" : "Amount:415.00",
+		"imageUrl":"https://www.westgate.co.ke/beta/wp-content/uploads/2015/09/Airtel.png",
+		"ButtonText" : "Pay Bill",
+		"redirectUrl" : "https://www.westgate.co.ke/beta/wp-content/uploads/2015/09/Airtel.png"
+	},
+	{
+		"titile" : "Citi Bank credit card bill",
+		"subtitle" : "Last Date:20-05-2017",
+		"text" : "Amount:15476.78",
+		"imageUrl":"http://malaysiacreditcard.com/wp-content/uploads/2013/05/Citibank-PremierMiles-Card-Visa.png",
+		"ButtonText" : "Pay Bill",
+		"redirectUrl" : "http://malaysiacreditcard.com/wp-content/uploads/2013/05/Citibank-PremierMiles-Card-Visa.png"
+	}
+],
+"1351726431537456" : {
+"balance" : "1000.00",
+"transactions" : [
+	{
+		"date" : "31-03-2017",
+		"Remarks" : "FIS Salary",
+		"trType" : "CR",
+		"amount" : "34567.00"
+	},
+	{
+		"date" : "01-04-2017",
+		"Remarks" : "House Rent",
+		"trType" : "DR",
+		"amount" : "12000.00"
+	},
+	{
+		"date" : "04-04-2017",
+		"Remarks" : "Credit card bill",
+		"trType" : "DR",
+		"amount" : "15000.00"
+	},
+	{
+		"date" : "05-04-2017",
+		"Remarks" : "Electricity Bill",
+		"trType" : "DR",
+		"amount" : "600.00"
+	},
+	{
+		"date" : "07-04-2017",
+		"Remarks" : "Lunch",
+		"trType" : "DR",
+		"amount" : "900.00"
+	}	
+]
+},
+"log": {
+    "path": "logs/bot.log",
+    "level": "debug"
+  }
+}
